@@ -1,5 +1,5 @@
 trigger:
-- main  # Define the branch to trigger the pipeline on
+- master  # Define the branch to trigger the pipeline on
 
 pool:
   vmImage: 'ubuntu-latest'  # Use the latest Ubuntu agent
