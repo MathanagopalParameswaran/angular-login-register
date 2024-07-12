@@ -8,10 +8,10 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:angular-login-register": "node dist/angular-login-register/server/server.mjs",
-    "build-prod":"ng build --configuration=production --output-hasing=all",
-    "build-staging":"ng build --configuration=staging --output-hasing=all",
-    "build-qa":"ng build --configuration=qa --output-hasing=all",
-    "build-dev":"ng build --configuration=development --output-hasing=all"
+    "build-prod":"ng build --configuration=production --output-hashing=all",
+    "build-staging":"ng build --configuration=staging --output-hashing=all",
+    "build-qa":"ng build --configuration=qa --output-hashing=all",
+    "build-dev":"ng build --configuration=development --output-hashing=all"
   },
   "private": true,
   "dependencies": {

@@ -6,13 +6,13 @@ pool:
 
 variables:
   # Define your environment-specific variables here
-  buildConfiguration: 'development'
+  buildConfiguration: 'dev'
   # Add any other variables you need for deployment, like connection strings, etc.
 
 steps:
 - script: |
     npm install
-    npm run build-development
+    npm run build-dev
   displayName: 'Build Angular App'
 
 - task: PublishBuildArtifacts@1
