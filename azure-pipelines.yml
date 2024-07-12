@@ -9,6 +9,11 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
+variables:
+  # Define your environment-specific variables here
+  buildConfiguration: 'development'
+  # Add any other variables you need for deployment, like connection strings, etc.
+
 steps:
 - script: |
     npm install -g @angular/cli
