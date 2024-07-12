@@ -13,7 +13,7 @@ steps:
 - script: |
     npm install -g @angular/cli
     npm install
-    ng build --dev
+    ng build-development
   displayName: 'Build Angular App'
   
 - task: PublishBuildArtifacts@1
