@@ -1,3 +1,3 @@
 export const environment = {
-    localApiUrl: "http://localhost:5272"
+    localApiUrl: "app-coreapi-eastus-dev-001.azurewebsites.net"
 };
