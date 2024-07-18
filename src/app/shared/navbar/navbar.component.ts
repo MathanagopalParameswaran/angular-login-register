@@ -13,4 +13,9 @@ import { CommonModule } from '@angular/common';
 })
 export class NavbarComponent {
   constructor(public authencationService: AuthencationService) { }
+
+  logout(){
+    this.authencationService.removeToken();
+    this.authencationService.canAccess();
+  }
 }

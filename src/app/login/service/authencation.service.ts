@@ -60,6 +60,11 @@ export class AuthencationService {
     if (token)
       sessionStorage.setItem("token", token);
   }
+  removeToken() {
+    // remove the token user is authencated.
+      sessionStorage.removeItem("token");
+  }
+
 
   getUserDetails(): Observable<{ userName: string }> {
     this.token = sessionStorage.getItem("token");
